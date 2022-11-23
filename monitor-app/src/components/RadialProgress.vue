@@ -9,10 +9,10 @@ interface Props {
   completedSteps?: Numberish;
   startColor?: string;
   stopColor?: string;
-  innerStrokeColor?: Numberish;
+  innerStrokeColor?: string;
   strokeWidth?: Numberish;
   innerStrokeWidth?: Numberish;
-  strokeLinecap?: string;
+  strokeLinecap?: "round" | "inherit" | "butt" | "square" | undefined;
   animateSpeed?: Numberish;
   fps?: Numberish;
   timingFunc?: string;
